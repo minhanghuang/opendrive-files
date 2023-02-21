@@ -1,7 +1,7 @@
-# OpenDRIVE FILES
+# OpenDRIVE Files
 
 ```shell
 mkdir build && cd build
-cmake -DCMAKE_INSTALL_PREFIX=/you/instll/path ..
+cmake -DCMAKE_INSTALL_PREFIX=/you/install/path ..
 sudo make install
 ```
