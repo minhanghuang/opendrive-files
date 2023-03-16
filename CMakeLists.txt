@@ -26,6 +26,14 @@ file(COPY
   PATTERN "*.xml"
 )
 
+file(COPY
+  "other/"
+  DESTINATION "${PROJECT_BINARY_DIR}/share/xodr/other"
+  FILES_MATCHING
+  PATTERN "*.xodr"
+  PATTERN "*.xml"
+)
+
 install(DIRECTORY "${PROJECT_BINARY_DIR}/share/xodr/"
   DESTINATION "share/xodr"
   FILES_MATCHING
